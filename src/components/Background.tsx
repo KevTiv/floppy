@@ -1,4 +1,4 @@
-import {Canvas, View} from "./Themed";
+import {Canvas, View} from "./theme/Themed";
 import {useImage, Image, Group} from "@shopify/react-native-skia";
 import {StyleSheet, Dimensions} from "react-native";
 import React from "react";

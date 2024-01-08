@@ -26,7 +26,7 @@ import {
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
-import { useTheme } from '../store';
+import { useTheme } from '../../store';
 
 interface ColorScheme {
   active: boolean;

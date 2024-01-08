@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pressable, StyleSheet } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
-import { useTheme } from '../store';
+import { useTheme } from '../../store';
 import { useColorScheme } from './ColorSchemeProvider';
 import { Feather } from '@expo/vector-icons';
 

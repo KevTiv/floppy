@@ -5,7 +5,7 @@
 
 import { Text as DefaultText, View as DefaultView, StyleSheet } from 'react-native';
 import {Canvas as DefaultCanvas} from "@shopify/react-native-skia";
-import { useTheme } from '../store';
+import { useTheme } from '../../store';
 
 type ThemeProps = {
   lightColor?: string;
@@ -34,7 +34,7 @@ export function View(props: ViewProps) {
 
   return (
     <DefaultView
-      style={[{ backgroundColor: theme.background}, styles.defaultContainer,, style]}
+      style={[{ backgroundColor: theme.background}, styles.defaultContainer, style]}
       {...otherProps}
     />
   );
